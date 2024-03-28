@@ -1,41 +1,41 @@
 [
   {
-    "Id": "ba18ecee-d0cb-4b90-8ab0-6bb936cee5a2",
+    "Id": "2b131a61-717f-4eb1-b6b8-73b71a773f8c",
     "Heroes": [
       {
-        "Id": "K1",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "S2",
-        "CurrentHealth": 0,
+        "Id": "S1",
+        "CurrentHealth": 20,
         "MaxHealth": 120,
         "IsAlive": false
       },
       {
-        "Id": "S3",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "S4",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A5",
+        "Id": "A2",
         "CurrentHealth": 0,
         "MaxHealth": 100,
         "IsAlive": false
       },
       {
-        "Id": "S6",
-        "CurrentHealth": 0,
+        "Id": "S3",
+        "CurrentHealth": 27,
         "MaxHealth": 120,
+        "IsAlive": false
+      },
+      {
+        "Id": "A4",
+        "CurrentHealth": 0,
+        "MaxHealth": 100,
+        "IsAlive": false
+      },
+      {
+        "Id": "K5",
+        "CurrentHealth": 0,
+        "MaxHealth": 150,
+        "IsAlive": false
+      },
+      {
+        "Id": "A6",
+        "CurrentHealth": 0,
+        "MaxHealth": 100,
         "IsAlive": false
       },
       {
@@ -51,15 +51,15 @@
         "IsAlive": false
       },
       {
-        "Id": "S9",
-        "CurrentHealth": 15,
-        "MaxHealth": 120,
+        "Id": "A9",
+        "CurrentHealth": 0,
+        "MaxHealth": 100,
         "IsAlive": false
       },
       {
-        "Id": "S10",
+        "Id": "A10",
         "CurrentHealth": 0,
-        "MaxHealth": 120,
+        "MaxHealth": 100,
         "IsAlive": false
       },
       {
@@ -69,16 +69,16 @@
         "IsAlive": false
       },
       {
-        "Id": "A12",
+        "Id": "K12",
         "CurrentHealth": 0,
-        "MaxHealth": 100,
+        "MaxHealth": 150,
         "IsAlive": false
       },
       {
-        "Id": "S13",
-        "CurrentHealth": 30,
-        "MaxHealth": 120,
-        "IsAlive": true
+        "Id": "A13",
+        "CurrentHealth": 0,
+        "MaxHealth": 100,
+        "IsAlive": false
       },
       {
         "Id": "K14",
@@ -87,16 +87,16 @@
         "IsAlive": false
       },
       {
-        "Id": "S15",
+        "Id": "K15",
         "CurrentHealth": 0,
-        "MaxHealth": 120,
+        "MaxHealth": 150,
         "IsAlive": false
       },
       {
         "Id": "S16",
-        "CurrentHealth": 0,
+        "CurrentHealth": 60,
         "MaxHealth": 120,
-        "IsAlive": false
+        "IsAlive": true
       },
       {
         "Id": "K17",
@@ -111,21 +111,21 @@
         "IsAlive": false
       },
       {
-        "Id": "K19",
+        "Id": "S19",
+        "CurrentHealth": 0,
+        "MaxHealth": 120,
+        "IsAlive": false
+      },
+      {
+        "Id": "K20",
         "CurrentHealth": 0,
         "MaxHealth": 150,
         "IsAlive": false
       },
       {
-        "Id": "S20",
+        "Id": "K21",
         "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "S21",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
+        "MaxHealth": 150,
         "IsAlive": false
       },
       {
@@ -142,839 +142,207 @@
       }
     ],
     "BattleHistory": {
-      "RoundCount": 22,
+      "RoundCount": 25,
       "BattleRounds": [
         {
-          "OffenderId": "S21",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S15",
+          "OffenderId": "K21",
+          "OffenderStartHealth": 150,
+          "OffenderResultHealth": 75,
+          "DefenderId": "A2",
+          "DefenderStartHealth": 100,
+          "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "K5",
+          "OffenderStartHealth": 150,
+          "OffenderResultHealth": 75,
+          "DefenderId": "A8",
+          "DefenderStartHealth": 100,
+          "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "A4",
+          "OffenderStartHealth": 100,
+          "OffenderResultHealth": 50,
+          "DefenderId": "S22",
           "DefenderStartHealth": 120,
           "DefenderResultHealth": 0
         },
         {
-          "OffenderId": "K14",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 75,
-          "DefenderId": "K19",
+          "OffenderId": "K5",
+          "OffenderStartHealth": 85,
+          "OffenderResultHealth": 42,
+          "DefenderId": "K12",
           "DefenderStartHealth": 150,
           "DefenderResultHealth": 0
         },
         {
-          "OffenderId": "A8",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "K17",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S4",
+          "OffenderId": "S1",
           "OffenderStartHealth": 120,
           "OffenderResultHealth": 60,
-          "DefenderId": "A12",
+          "DefenderId": "A7",
+          "DefenderStartHealth": 100,
+          "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "S19",
+          "OffenderStartHealth": 120,
+          "OffenderResultHealth": 60,
+          "DefenderId": "A13",
           "DefenderStartHealth": 100,
           "DefenderResultHealth": 0
         },
         {
           "OffenderId": "S23",
           "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S20",
-          "DefenderStartHealth": 120,
+          "OffenderResultHealth": 120,
+          "DefenderId": "K17",
+          "DefenderStartHealth": 150,
+          "DefenderResultHealth": 150
+        },
+        {
+          "OffenderId": "S19",
+          "OffenderStartHealth": 70,
+          "OffenderResultHealth": 35,
+          "DefenderId": "A4",
+          "DefenderStartHealth": 90,
           "DefenderResultHealth": 0
         },
         {
-          "OffenderId": "S3",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S2",
-          "DefenderStartHealth": 120,
+          "OffenderId": "K15",
+          "OffenderStartHealth": 150,
+          "OffenderResultHealth": 75,
+          "DefenderId": "K20",
+          "DefenderStartHealth": 150,
           "DefenderResultHealth": 0
         },
         {
-          "OffenderId": "S21",
-          "OffenderStartHealth": 110,
-          "OffenderResultHealth": 55,
-          "DefenderId": "S23",
-          "DefenderStartHealth": 70,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S9",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "A5",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S4",
+          "OffenderId": "A6",
           "OffenderStartHealth": 100,
           "OffenderResultHealth": 50,
-          "DefenderId": "S18",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A7",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "S6",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S16",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
           "DefenderId": "A11",
           "DefenderStartHealth": 100,
           "DefenderResultHealth": 0
         },
         {
-          "OffenderId": "S3",
-          "OffenderStartHealth": 110,
-          "OffenderResultHealth": 55,
-          "DefenderId": "S22",
+          "OffenderId": "A9",
+          "OffenderStartHealth": 100,
+          "OffenderResultHealth": 50,
+          "DefenderId": "S23",
           "DefenderStartHealth": 120,
           "DefenderResultHealth": 0
         },
         {
-          "OffenderId": "S21",
-          "OffenderStartHealth": 105,
-          "OffenderResultHealth": 52,
-          "DefenderId": "A8",
+          "OffenderId": "S18",
+          "OffenderStartHealth": 120,
+          "OffenderResultHealth": 60,
+          "DefenderId": "A6",
+          "DefenderStartHealth": 60,
+          "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "S3",
+          "OffenderStartHealth": 120,
+          "OffenderResultHealth": 60,
+          "DefenderId": "A9",
+          "DefenderStartHealth": 60,
+          "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "S16",
+          "OffenderStartHealth": 120,
+          "OffenderResultHealth": 120,
+          "DefenderId": "K15",
+          "DefenderStartHealth": 115,
+          "DefenderResultHealth": 115
+        },
+        {
+          "OffenderId": "S1",
+          "OffenderStartHealth": 120,
+          "OffenderResultHealth": 60,
+          "DefenderId": "S18",
+          "DefenderStartHealth": 80,
+          "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "S1",
+          "OffenderStartHealth": 60,
+          "OffenderResultHealth": 30,
+          "DefenderId": "A10",
           "DefenderStartHealth": 100,
           "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "K21",
+          "OffenderStartHealth": 150,
+          "OffenderResultHealth": 75,
+          "DefenderId": "K17",
+          "DefenderStartHealth": 150,
+          "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "S1",
+          "OffenderStartHealth": 40,
+          "OffenderResultHealth": 20,
+          "DefenderId": "S19",
+          "DefenderStartHealth": 120,
+          "DefenderResultHealth": 0
+        },
+        {
+          "OffenderId": "K21",
+          "OffenderStartHealth": 85,
+          "OffenderResultHealth": 0,
+          "DefenderId": "S3",
+          "DefenderStartHealth": 110,
+          "DefenderResultHealth": 55
+        },
+        {
+          "OffenderId": "S3",
+          "OffenderStartHealth": 55,
+          "OffenderResultHealth": 55,
+          "DefenderId": "K15",
+          "DefenderStartHealth": 150,
+          "DefenderResultHealth": 150
         },
         {
           "OffenderId": "K14",
           "OffenderStartHealth": 150,
           "OffenderResultHealth": 0,
           "DefenderId": "S3",
-          "DefenderStartHealth": 65,
-          "DefenderResultHealth": 32
-        },
-        {
-          "OffenderId": "S13",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 120,
-          "DefenderId": "K1",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 150
-        },
-        {
-          "OffenderId": "K1",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 0,
-          "DefenderId": "S16",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 50
-        },
-        {
-          "OffenderId": "S21",
-          "OffenderStartHealth": 82,
-          "OffenderResultHealth": 41,
-          "DefenderId": "A7",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S9",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S10",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S9",
-          "OffenderStartHealth": 60,
-          "OffenderResultHealth": 30,
-          "DefenderId": "S3",
-          "DefenderStartHealth": 72,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S9",
-          "OffenderStartHealth": 30,
-          "OffenderResultHealth": 15,
-          "DefenderId": "S4",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S13",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S16",
-          "DefenderStartHealth": 90,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S13",
-          "OffenderStartHealth": 60,
-          "OffenderResultHealth": 30,
-          "DefenderId": "S21",
-          "DefenderStartHealth": 81,
-          "DefenderResultHealth": 0
-        }
-      ]
-    }
-  },
-  {
-    "Id": "6b751d73-58db-4793-8ded-a31e26c18b2b",
-    "Heroes": [
-      {
-        "Id": "A1",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "K2",
-        "CurrentHealth": 75,
-        "MaxHealth": 150,
-        "IsAlive": true
-      },
-      {
-        "Id": "K3",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "S4",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A5",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "S6",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "S7",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A8",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "S9",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A10",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "K11",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "K12",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "K13",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "A14",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "S15",
-        "CurrentHealth": 20,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "K16",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "S17",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "S18",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "K19",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "A20",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "A21",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "A22",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "K23",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      }
-    ],
-    "BattleHistory": {
-      "RoundCount": 24,
-      "BattleRounds": [
-        {
-          "OffenderId": "K3",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 75,
-          "DefenderId": "A10",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A21",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "S17",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A8",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "S18",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K19",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 0,
-          "DefenderId": "S4",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 60
-        },
-        {
-          "OffenderId": "A8",
-          "OffenderStartHealth": 60,
-          "OffenderResultHealth": 30,
-          "DefenderId": "A20",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K3",
-          "OffenderStartHealth": 115,
-          "OffenderResultHealth": 57,
-          "DefenderId": "A14",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K16",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 0,
-          "DefenderId": "S6",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 60
-        },
-        {
-          "OffenderId": "S9",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "A1",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A8",
-          "OffenderStartHealth": 60,
-          "OffenderResultHealth": 30,
-          "DefenderId": "S4",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K11",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 75,
-          "DefenderId": "K23",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A22",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "A5",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S15",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 120,
-          "DefenderId": "K3",
-          "DefenderStartHealth": 107,
-          "DefenderResultHealth": 107
-        },
-        {
-          "OffenderId": "S15",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 120,
-          "DefenderId": "K13",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 150
-        },
-        {
-          "OffenderId": "A21",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "A22",
-          "DefenderStartHealth": 70,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K11",
-          "OffenderStartHealth": 115,
-          "OffenderResultHealth": 57,
-          "DefenderId": "K12",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S15",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S9",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A21",
-          "OffenderStartHealth": 70,
-          "OffenderResultHealth": 35,
-          "DefenderId": "K13",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S6",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "A8",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K11",
-          "OffenderStartHealth": 87,
-          "OffenderResultHealth": 0,
-          "DefenderId": "S15",
-          "DefenderStartHealth": 80,
-          "DefenderResultHealth": 40
-        },
-        {
-          "OffenderId": "S15",
-          "OffenderStartHealth": 40,
-          "OffenderResultHealth": 20,
-          "DefenderId": "S7",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K3",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 0,
-          "DefenderId": "S6",
-          "DefenderStartHealth": 80,
-          "DefenderResultHealth": 40
-        },
-        {
-          "OffenderId": "S6",
-          "OffenderStartHealth": 40,
-          "OffenderResultHealth": 40,
-          "DefenderId": "K2",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 150
-        },
-        {
-          "OffenderId": "A21",
-          "OffenderStartHealth": 85,
-          "OffenderResultHealth": 42,
-          "DefenderId": "S6",
-          "DefenderStartHealth": 40,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K2",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 75,
-          "DefenderId": "A21",
-          "DefenderStartHealth": 42,
-          "DefenderResultHealth": 0
-        }
-      ]
-    }
-  },
-  {
-    "Id": "1f90082e-cda5-478c-bfec-6d1c64c87e2b",
-    "Heroes": [
-      {
-        "Id": "A1",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "S2",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A3",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "A4",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "K5",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "S6",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A7",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "K8",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "S9",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A10",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "S11",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "S12",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "S13",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "S14",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A15",
-        "CurrentHealth": 32,
-        "MaxHealth": 100,
-        "IsAlive": true
-      },
-      {
-        "Id": "A16",
-        "CurrentHealth": 20,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "A17",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "S18",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "S19",
-        "CurrentHealth": 0,
-        "MaxHealth": 120,
-        "IsAlive": false
-      },
-      {
-        "Id": "A20",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "A21",
-        "CurrentHealth": 22,
-        "MaxHealth": 100,
-        "IsAlive": false
-      },
-      {
-        "Id": "K22",
-        "CurrentHealth": 0,
-        "MaxHealth": 150,
-        "IsAlive": false
-      },
-      {
-        "Id": "A23",
-        "CurrentHealth": 0,
-        "MaxHealth": 100,
-        "IsAlive": false
-      }
-    ],
-    "BattleHistory": {
-      "RoundCount": 21,
-      "BattleRounds": [
-        {
-          "OffenderId": "A23",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "K5",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S6",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S11",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A20",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "A3",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A20",
-          "OffenderStartHealth": 50,
-          "OffenderResultHealth": 25,
-          "DefenderId": "S19",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S2",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 120,
-          "DefenderId": "K22",
-          "DefenderStartHealth": 150,
-          "DefenderResultHealth": 150
-        },
-        {
-          "OffenderId": "S12",
-          "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S13",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "K8",
-          "OffenderStartHealth": 150,
-          "OffenderResultHealth": 75,
-          "DefenderId": "A7",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S6",
-          "OffenderStartHealth": 110,
-          "OffenderResultHealth": 55,
-          "DefenderId": "A20",
           "DefenderStartHealth": 55,
-          "DefenderResultHealth": 0
+          "DefenderResultHealth": 27
         },
         {
-          "OffenderId": "A1",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "K22",
+          "OffenderId": "K5",
+          "OffenderStartHealth": 150,
+          "OffenderResultHealth": 75,
+          "DefenderId": "K15",
           "DefenderStartHealth": 150,
           "DefenderResultHealth": 0
         },
         {
-          "OffenderId": "A16",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "A17",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A21",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "K8",
-          "DefenderStartHealth": 105,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "S14",
+          "OffenderId": "S16",
           "OffenderStartHealth": 120,
-          "OffenderResultHealth": 60,
-          "DefenderId": "S2",
+          "OffenderResultHealth": 120,
+          "DefenderId": "K5",
+          "DefenderStartHealth": 75,
+          "DefenderResultHealth": 75
+        },
+        {
+          "OffenderId": "S16",
+          "OffenderStartHealth": 120,
+          "OffenderResultHealth": 120,
+          "DefenderId": "K5",
+          "DefenderStartHealth": 75,
+          "DefenderResultHealth": 75
+        },
+        {
+          "OffenderId": "K5",
+          "OffenderStartHealth": 75,
+          "OffenderResultHealth": 0,
+          "DefenderId": "S16",
           "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A15",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "A1",
-          "DefenderStartHealth": 80,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A16",
-          "OffenderStartHealth": 80,
-          "OffenderResultHealth": 40,
-          "DefenderId": "S18",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A16",
-          "OffenderStartHealth": 40,
-          "OffenderResultHealth": 20,
-          "DefenderId": "S14",
-          "DefenderStartHealth": 80,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A21",
-          "OffenderStartHealth": 90,
-          "OffenderResultHealth": 45,
-          "DefenderId": "A4",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A21",
-          "OffenderStartHealth": 45,
-          "OffenderResultHealth": 22,
-          "DefenderId": "S9",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A15",
-          "OffenderStartHealth": 90,
-          "OffenderResultHealth": 45,
-          "DefenderId": "S6",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A10",
-          "OffenderStartHealth": 100,
-          "OffenderResultHealth": 50,
-          "DefenderId": "A23",
-          "DefenderStartHealth": 100,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A10",
-          "OffenderStartHealth": 50,
-          "OffenderResultHealth": 25,
-          "DefenderId": "S12",
-          "DefenderStartHealth": 120,
-          "DefenderResultHealth": 0
-        },
-        {
-          "OffenderId": "A15",
-          "OffenderStartHealth": 65,
-          "OffenderResultHealth": 32,
-          "DefenderId": "A10",
-          "DefenderStartHealth": 25,
-          "DefenderResultHealth": 0
+          "DefenderResultHealth": 60
         }
       ]
     }

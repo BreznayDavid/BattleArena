@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BattleArena.Models;
 using Newtonsoft.Json;
-using System.IO;
 
 namespace BattleArena.Controllers
 {
@@ -9,8 +8,6 @@ namespace BattleArena.Controllers
     [Route("[controller]")]
     public class BattleArenaController : ControllerBase
     {
-
-        
 
         private readonly ILogger<BattleArenaController> _logger;
         private readonly IWebHostEnvironment _environment;
@@ -21,6 +18,11 @@ namespace BattleArena.Controllers
             _environment = environment;
         }
 
+        /// <summary>
+        /// Létrehoz egy arénacsatát a megadott számú, véletlenszerűen generált hősök számával
+        /// </summary>
+        /// <param name="n">Hősök száma</param>
+        /// <returns>A kigenerált csata azonosítója</returns>
         [HttpPost("Generate/{n}")]
         public string Generate(int n)
         {
@@ -37,12 +39,20 @@ namespace BattleArena.Controllers
             }
             catch(Exception e)
             {
-                Response.StatusCode = 400;
+                if (Response != null)
+                {
+                    Response.StatusCode = 400;
+                }
                 _logger.LogError(e, e.Message);
                 return "None";
             }
         }
 
+        /// <summary>
+        /// Lekérdezi a megadott azonosítójú csata folyamatát és annak köreinek számát.
+        /// </summary>
+        /// <param name="id">A csata azonosítója (UUID)</param>
+        /// <returns>History osztály a köreinek számával és a csata folyamatával</returns>
         [HttpGet("Battle/{id}")]
         public string Battle(string id)
         {
@@ -51,7 +61,10 @@ namespace BattleArena.Controllers
                 List<Arena> arenas = JsonConvert.DeserializeObject<List<Arena>>(System.IO.File.ReadAllText(Path.Combine(_environment.ContentRootPath, "Data", "battleArenaInfo.json"))) ?? new List<Arena>();
                 if (!arenas.Exists(arena => arena.Id == id))
                 {
-                    Response.StatusCode = 404;
+                    if (Response != null)
+                    {
+                        Response.StatusCode = 404;
+                    }
                     throw new Exception("Aréna nem található.");
                 }
                 return JsonConvert.SerializeObject(arenas.Find(arena => arena.Id == id)?.BattleHistory);
